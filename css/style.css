@@ -378,7 +378,7 @@ a {
   width: 48.9vw;
 }
 
-/* ----- Results ----- */
+/* ----- RESULTS ----- */
 .results {
   height: 60vh;
   text-align: center;
@@ -389,7 +389,7 @@ a {
   margin-bottom: 15px;
 }
 
-.results h6 {
+.results .page-title {
   font-size: 40px;
   color: #3a3a47;
   padding: 0 20vw;
@@ -431,5 +431,50 @@ a {
 
 .results .grid-results .item-result p {
   color: #959597;
+}
+
+/* ----- REVIEWS ----- */
+.reviews {
+  height: 100vh;
+  text-align: center;
+  background-color: #f6f6fd;
+  padding-top: 30px;
+}
+
+.reviews .page-title {
+  font-size: 40px;
+  color: #3a3a47;
+  padding: 0 20vw;
+  margin-bottom: 10px;
+}
+
+.reviews .sub-title {
+  padding: 0 20vw;
+  color: #959597;
+  margin-bottom: 50px;
+}
+
+.reviews .review-container {
+  margin: 0 30vw;
+  padding: 60px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.reviews .review-container p {
+  color: #3a3a47;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.reviews .review-container img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.reviews .review-container .stars {
+  font-size: 15px;
+  color: var(--yellow);
 }
 /*# sourceMappingURL=style.css.map */

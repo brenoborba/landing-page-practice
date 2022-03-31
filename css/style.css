@@ -293,7 +293,7 @@ a {
 .services .text-container .text-box h4 {
   color: #343a40;
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 18px;
 }
 
@@ -315,4 +315,66 @@ a {
 }
 
 /* ----- DEMO ----- */
+.demo {
+  height: 80vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.demo .demo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f8f9fa;
+  width: 100vw;
+  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.demo .demo-container .demo-text {
+  text-align: left;
+  width: 50vw;
+  padding-left: 4em;
+  padding-right: 20px;
+}
+
+.demo .demo-container .demo-text h6 {
+  font-size: 35px;
+  color: #3a3a47;
+  letter-spacing: 0.5px;
+}
+
+.demo .demo-container .demo-text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #959597;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.demo .demo-container .demo-text .btn {
+  border: none;
+  background-color: #007bffe1;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 200px;
+}
+
+.demo .demo-container iframe {
+  height: inherit;
+  width: 48.9vw;
+}
 /*# sourceMappingURL=style.css.map */

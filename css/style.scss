@@ -252,7 +252,7 @@ a{
             h4{
                 color: #343a40;
                 font-size: 28px;
-                font-weight: 600;
+                font-weight: 400;
                 margin-left: 18px;
 
                 p{
@@ -281,4 +281,66 @@ a{
 
 
 /* ----- DEMO ----- */
+
+.demo{
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+
+    .demo-container{
+        display: flex;
+        background-color: #f8f9fa;
+        width: 100vw;
+        height: 60vh;
+        align-items: center;
+
+
+        .demo-text{
+            text-align: left;
+            width: 50vw;
+            padding-left: 4em;
+            padding-right: 20px;
+
+            h6{
+                font-size: 35px;
+                color:#3a3a47;
+                letter-spacing: 0.5px;
+            }
+
+            p{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: #959597;
+                letter-spacing: 1px;
+                font-weight: 400;
+            }
+
+            .btn{
+                border: none;
+                background-color: #007bffe1;
+                padding: 20px;
+                border-radius: 30px;
+                color: white;
+                font-weight: 400;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                cursor: pointer;
+                width: 200px;
+            }
+
+            .btn:hover{
+                
+            }
+        }
+
+        iframe{
+            height: inherit;
+            width: 48.9vw;
+
+
+        }
+    }
+}
 

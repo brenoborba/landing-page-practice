@@ -40,7 +40,6 @@ body{
     background-color: var(--white);
 }
 
-/* ----- HOME ----- */
 
 ul{
     list-style: none;
@@ -50,13 +49,15 @@ a{
     text-decoration: none;
 }
 
+/* ----- HOME ----- */
+
 .home{
     height: 100vh;
 
     .header{
         .navbar{
             padding: 25px 16px;
-            
+
             .container{
                 margin-left: 120px;
                 display: flex;
@@ -96,7 +97,6 @@ a{
         align-items: center;
         margin-top: 9vh;
 
-
         .text-content{
             margin-left: 10vw;
             margin-right: 5vw;
@@ -119,9 +119,9 @@ a{
                 margin-top: 20px;
                 color: #959597;
             }
+
             .form{
                 padding-top: 20px;
-
 
                 input, button{
                     width: 300px;
@@ -130,11 +130,11 @@ a{
                     border-radius: 30px;
                     background-color: #F3F3F3;
                 }
+
                 input{
                     padding: 0 100px 0 22px;
                     outline: none;
                     font-size: 15px;
-
                 }
 
                 button{
@@ -143,21 +143,17 @@ a{
                     background-color: #007bffe1;
                     font-size: 15px;
                     margin-left: -70px;
-
                 }
 
                 button:hover{
                     cursor: pointer;
                 }
-
             }
-
-
-
         }
 
         .hero-img{
             margin-right: 11vw;
+
             img{
                 max-width: 100%;
                 height: auto;
@@ -190,7 +186,7 @@ a{
         .grid-container{
             display: grid;
             grid-template-columns: auto auto auto;
-            column-gap: 80px;
+            column-gap: 70px;
             row-gap: 30px;
             justify-content: center;
             margin-top: -10px;
@@ -228,3 +224,61 @@ a{
         }
     }
 }
+
+/* ----- SERVICES ----- */
+
+.services{
+    height: 100vh;
+
+    .services-container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+        .text-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 18vw;
+            height: 18vh;
+
+            h4{
+                color: #343a40;
+                font-size: 28px;
+                font-weight: 600;
+                margin-left: 18px;
+
+                p{
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #959597;
+
+                }
+            }
+
+            img{
+                width: 70px;
+            }
+        }
+    }
+
+
+    .img-wrapper img{
+        width: 70%;
+        display: block;
+        margin-right: 15vw;
+        margin-left: auto;
+    }
+
+}
+
+
+/* ----- DEMO ----- */
+

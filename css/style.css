@@ -40,7 +40,6 @@ body {
   background-color: var(--white);
 }
 
-/* ----- HOME ----- */
 ul {
   list-style: none;
 }
@@ -49,6 +48,7 @@ a {
   text-decoration: none;
 }
 
+/* ----- HOME ----- */
 .home {
   height: 100vh;
 }
@@ -200,8 +200,8 @@ a {
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
-  -webkit-column-gap: 80px;
-          column-gap: 80px;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
   row-gap: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -246,4 +246,73 @@ a {
   margin: 40px 0 25px;
   width: 80px;
 }
+
+/* ----- SERVICES ----- */
+.services {
+  height: 100vh;
+}
+
+.services .services-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.services .text-container .text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 18vw;
+  height: 18vh;
+}
+
+.services .text-container .text-box h4 {
+  color: #343a40;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.services .text-container .text-box h4 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #959597;
+}
+
+.services .text-container .text-box img {
+  width: 70px;
+}
+
+.services .img-wrapper img {
+  width: 70%;
+  display: block;
+  margin-right: 15vw;
+  margin-left: auto;
+}
+
+/* ----- DEMO ----- */
 /*# sourceMappingURL=style.css.map */
